@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="product">
+    <ul style="list-style: None;">
+        <li> <b>{{product.name}}</b></li>
+        <li>{{product.description}}</li>
+        <li>Quantity: {{product.stock_quantity}}</li>
+        <li>Buyers Cost: {{product.buyer_cost}}</li>
+        <li>Selling Price: {{product.resale_price}}</li>
+        <li>Supplier: {{product.supplier.company_name}}</li>
+    </ul>
+    <form action="/products/{{product.id}}/edit" method = "POST">
+    <button type = 'edit'> <i class="fa-solid fa-pen-to-square" style="color:purple"></i></button>
+    </form>
+</div>
+
+{% endblock %}

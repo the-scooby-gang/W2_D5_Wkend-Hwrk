@@ -1,0 +1,49 @@
+body {
+    font-family: Helvetica, arial, sans-serif; 
+    font-size: 16px; color:palevioletred;
+    background-color: floralwhite ;
+}
+
+a:any-link {
+  color: purple;
+}
+
+.product {
+    border: 1px solid palevioletred ;
+    width: 250px;
+    min-height: 68px;
+    padding: 10px;
+    flex-direction: column;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+.forms{
+  border: 1px solid palevioletred;
+  width: 300px;
+  min-height: 68px;
+  padding: 10px;
+  flex-direction: column;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.input{
+  background-color: floralwhite;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px; color:palevioletred
+}
+
+.home{
+  width: 650px;
+  min-height: 380px;
+  padding: 10px;
+  background-image:
+  url("Main_Pic.jpeg")
+  
+}
+
+.links{
+  flex-direction: row;
+}
+
